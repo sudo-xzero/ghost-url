@@ -19,7 +19,7 @@ print(Fore.RED,"""
 ╚██████╔╝██║  ██║╚██████╔╝███████║   ██║         ╚██████╔╝██║  ██║███████╗
  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝          ╚═════╝ ╚═╝  ╚═╝╚══════╝
  @sudo-xzero
- """)
+ """, Style.RESET_ALL))
 url = f'https://urlscan.io/api/v1/search/?q={tar_domain}'
 
 response = requests.get(url)
