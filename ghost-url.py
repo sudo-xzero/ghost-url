@@ -1,6 +1,7 @@
 import requests
 import argparse
 import json
+from colorama import Fore, Style
 parser = argparse.ArgumentParser(description="This use to extrect url info" )
 parser.add_argument("-d", "--domain", help="The target domain")
 parser.add_argument("-all", "--allurls", help="to get the all url")
